@@ -1,7 +1,7 @@
 
 var noderfc = require('node-rfc')
 
-var conf = sails.config.saprfc.S4
+var conf = sails.config.saprfc.S4H
 
 const pool = new noderfc.Pool(conf)
 const client = new noderfc.Client(conf);
